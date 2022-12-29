@@ -1,0 +1,85 @@
+/* colours */
+
+.light{
+	color:#EBE7EF;
+}
+.light-bg{
+	background:#EBE7EF;
+	color:#000;
+}
+.purple{
+	color:#4C2B72;
+}
+.purple-bg{
+	background:#4C2B72;
+	color:#fff;
+}
+.medium{
+	color:#8872A1;
+}
+.medium-bg{
+	background:#8872A1;
+	color:#fff;
+}
+.light-medium{
+	color:#C3B8D0;
+}
+.light-medium-bg{
+	background:#C3B8D0;
+	color:#000;
+}
+.high-dark{
+	color:#391463;
+}
+.high-dark-bg{
+	background:#391463;
+	color:#fff;
+}
+
+/* hover */
+
+nav div ul li a:hover{
+	text-decoration:underline;
+	background:#4C2B72;
+	transition:1s ease-in-out;
+}
+
+/* all */
+
+*{
+	transition:1s ease-in-out;
+}
+
+/* Scrollbar */
+html::-webkit-scrollbar{
+	width:.7rem;
+}
+html::-webkit-scrollbar-track{
+	background:#EBE7EF;
+}
+html::-webkit-scrollbar-thumb{
+	background:#8872A1;
+}
+
+/* custom */
+.display-1.light.shadow.text-center.mt-5.py-3{
+	font-weight:400;
+}
+.h4.text-center.mb-5{
+	cursor:pointer;
+}
+.px14{
+	font-size:14px;
+}
+.img-thumbnail.rounded{
+	transition:transform .5s;
+}
+.img-thumbnail.rounded:hover{
+	transform:scale(1.2);
+}
+.col-4{
+	overflow:hidden;
+}
+.pointer{
+	cursor:pointer;
+}
